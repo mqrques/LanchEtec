@@ -1,0 +1,54 @@
+@media only screen and (min-width: 200px){
+    .img-logo{
+        padding-top: 7rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo-img{
+        display: flex;
+        width: 161px;
+        height: 161px;
+    }
+    .login{
+        padding-top: 3rem;
+    }
+    .btn-login{
+        width: 100%;
+        border-radius: 40px;
+        border: none;
+        background: rgb(250,124,3);
+        background: linear-gradient(180deg, rgba(250,124,3,1) 33%, rgba(253,175,33,1) 95%);
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 3rem;
+    }
+    .btn-login p{
+        font-family: 'Poppins';
+    }
+    .btn-login:hover, .btn-login:active, .btn-login:focus{
+        background:  rgb(235, 115, 3);
+    }
+    .email-inp::placeholder, 
+    .pass-inp::placeholder{
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        color: black;
+    }
+    .email-inp, 
+    .pass-inp{
+        border: none;
+        border-radius: 20px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.2) 
+    }
+    .create-acc{
+        font-family: "Poppins", sans-serif;
+    }   
+    .create-link{
+        color: rgb(250,124,3);
+        text-decoration: none;
+        
+    }
+}

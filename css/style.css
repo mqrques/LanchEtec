@@ -1,0 +1,54 @@
+
+html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    overflow-x: hidden;
+}
+.img-logo {
+    width: 117px;
+    height: 117px;
+}
+
+.btn-sign-in {
+    border: none;
+    padding: 1rem 3rem;
+    border-radius: .9rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    color: #fff;
+    background-color: #FA7C03;
+}
+
+.btn-sign-in:hover {
+    background-color: rgb(233, 113, 1);
+}
+
+.body-76 {
+    background-color: #d9d9d9;
+    height: 100vh;
+}
+
+.columns {
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font: bold;
+    font-size: 40px;
+}
+
+.qrcode {   
+    width: 381px;
+    height: 381px; 
+    display: flex;
+}
+
+
+.column {
+    display: flex;
+}
+.align{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
