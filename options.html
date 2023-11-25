@@ -23,11 +23,11 @@
 
 <body>
 
-  <div class="menu-btn">
-    <i class="fas fa-bars"></i>
-  </div>
-  <div class="logo">
-    <img src="img/logo.svg" alt="logo" class="logo-nav d-flex ap-2 flex-fill">
+  <div class="home-header">
+    <div class="menu-btn">
+      <i class="fas fa-bars"></i>
+    </div>
+    <img src="img/user.svg" alt="user" class="logo-nav d-flex ap-2 flex-fill">
   </div>
   <div class="side-bar">
     <header>
@@ -48,15 +48,16 @@
       <div class="line-img">
         <img src="img/live.svg" alt="line" class="line">
       </div>
-      <div class="item"><a href="#"></i>Suporte</a></div>
-      <div class="item"><a href="#"></i>Contato</a></div>
-      <div class="item"><a href="#"></i>About</a></div>
+      <div class="item"><a href="#">Suporte</a></div>
+      <div class="item"><a href="#">Contato</a></div>
+      <div class="item"><a href="#">Sobre</a></div>
       <div class="line-img">
         <img src="img/live.svg" alt="line" class="line">
       </div>
-      <div class="item"><a href="#"></i>Criadores</a></div>
+      <div class="item"><a href="#">Criadores</a></div>
     </div>
   </div>
+  <!-- Carousel -->
   <section class="main container-fluid">
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
@@ -71,10 +72,198 @@
         </div>
       </div>
     </div>
-    <div class="search">
-      <div class="wrap">
-        <div class="search">
-          <input type="text" class="searchTerm" placeholder="Procure o que você deseja"><embed src="img/search.svg" type="">
+    <!-- Search -->
+    <div class="container">
+      <form>
+        <input type="search" placeholder="Procure o que você deseja">
+        <button type="submit"></button>
+      </form>
+    </div>
+    <!-- Cards -->
+  </section>
+  <section class="mid">
+    <div class="orange">
+    </div>
+    <div class="container-fluid font options">
+      <div class="row align-items-start">
+        <div class="col">
+          Lanches
+        </div>
+        <div class="col">
+        </div>
+        <div class="col">
+          <a href="html/salgado.html">Ver mais</a>
+        </div>
+      </div>
+    </div>
+    <div class="cards">
+      <div class="container-fluid options-card">
+        <div class="row align-items-start">
+          <div class="col">
+            <div class="card-list" id="sal-p-q">
+              <article class="card">
+                <figure class="card-image">
+                  <a href="#"><img src="img/cheese-cut.png" alt="burguer" class="img-card"></a>
+                </figure>
+                <div class="card-header">
+                  <a href="#" class="font text-decoration-none">Salgado presunto e queijo</a>
+                </div>
+                <div class="card-footer">
+                  <div class="card-meta card-meta--views font">
+                    R$8,00
+                  </div>
+              </article>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="col">
+          <div class="card-list">
+            <article class="card">
+              <figure class="card-image">
+                <a href="#"><img src="img/cheddar-cut.png" alt="burguer" class="img-card"></a>
+              </figure>
+              <div class="card-header">
+                <a href="#" class="font text-decoration-none">Salgado Hamburguer com Cheddar</a>
+              </div>
+              <div class="card-footer">
+                <div class="card-meta card-meta--views font">
+                  R$8,00
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="orange">
+    </div>
+    <div class="container-fluid font options">
+      <div class="row align-items-start ">
+        <div class="col">
+          Bebidas
+        </div>
+        <div class="col">
+        </div>
+        <div class="col more">
+          <a href="html/drink.html">Ver mais</a>
+        </div>
+      </div>
+    </div>
+    <div class="cards">
+      <div class="container-fluid options-card">
+        <div class="row align-items-start">
+          <div class="col">
+            <div class="card-list">
+              <article class="card">
+                <figure class="card-image">
+                  <a href="#"><img src="img/sprite.png" alt="burguer" class="img-card"></a>
+                </figure>
+                <div class="card-header">
+                  <a href="#" class="font text-decoration-none">Refrigerante Lata </a>
+                </div>
+                <div class="card-footer">
+                  <div class="card-meta card-meta--views font">
+                    R$5,00
+                  </div>
+              </article>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="col">
+          <div class="card-list">
+            <article class="card">
+              <figure class="card-image">
+                <a href="#"><img
+                    src="https://media.cotabest.com.br/media/sku/refrigerante-guarana-antarctica-pet-2litros-antarctica-un-def14ffbc3.jpg"
+                    alt="burguer" class="img-card"></a>
+              </figure>
+              <div class="card-header">
+                <a href="#" class="font text-decoration-none">Refrigerante 2 Litros</a>
+              </div>
+              <div class="card-footer">
+                <div class="card-meta card-meta--views font">
+                  R$8,00
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="orange">
+    </div>
+    <div class="container-fluid font options">
+      <div class="row align-items-start ">
+        <div class="col">
+          Doces
+        </div>
+        <div class="col">
+        </div>
+        <div class="col more">
+          <a href="html/doce.html">Ver mais</a>
+        </div>
+      </div>
+    </div>
+    <div class="cards">
+      <div class="container-fluid options-card">
+        <div class="row align-items-start">
+          <div class="col">
+            <div class="card-list">
+              <article class="card">
+                <figure class="card-image">
+                  <a href="#"><img src="img/freegells.JPG" alt="burguer" class="img-card"></a>
+                </figure>
+                <div class="card-header">
+                  <a href="#" class="font text-decoration-none">Freegells</a>
+                </div>
+                <div class="card-footer">
+                  <div class="card-meta card-meta--views font">
+                    R$3,00
+                  </div>
+              </article>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="col">
+          <div class="card-list">
+            <article class="card">
+              <figure class="card-image">
+                <a href="#"><img src="img/pirulito.JPG" alt="burguer" class="img-card"></a>
+              </figure>
+              <div class="card-header">
+                <a href="#" class="font text-decoration-none">Pirulito</a>
+              </div>
+              <div class="card-footer">
+                <div class="card-meta card-meta--views font">
+                  R$0,75
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="bigger">
+    </div>
+  </section>
+  <section class="footer">
+    <div class="foot">
+      <div class="container-fluid d-flex align-items-center">
+        <div class="row">
+          <div class="col-6 col-sm-3 font-orange">Redes Sociais</div>
+          <div class="col-6 col-sm-3">.col-6 .col-asddwwadoj-3</div>
+
+          <!-- Force next columns to break to new line -->
+          <div class="w-100"></div>
+
+          <div class="col-6 col-sm-3 font-link width-100 d-flex align-items-center mt-a"><i class="bi bi-facebook"></i>&nbsp;&nbsp;facebook.com/LanchEtec</div>
+          <div class="col-6 col-sm-3">.col-6 .col-sm-3</div>
         </div>
       </div>
     </div>
@@ -83,4 +272,5 @@
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" charset="utf-8"></script>
-  <script src="js/code.js"></sc
+  <script src="js/code.js"></script>
+</body>

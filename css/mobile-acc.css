@@ -1,6 +1,7 @@
-*{
+* {
     text-decoration: none;
 }
+
 @media only screen and (min-width: 200px) {
     .logo-img {
         width: 5rem;
@@ -15,19 +16,15 @@
     .text-create {
         color: #000;
         font-family: Poppins;
-        font-size: 2rem;
+        font-size: 1.5rem;
         font-style: normal;
         font-weight: 700;
-        line-height: normal;
-        padding-bottom: 12rem;
-        width: 100%;
-        height: 10px;
+        width: auto;
+        height: 8px;
         display: flex;
     }
 
-    .text-create p {
-        padding-top: 6rem;
-    }
+
     .google-img {
         width: 2rem;
         height: 2rem;
@@ -36,20 +33,14 @@
     }
 
     .ways {
-        width: 24rem;
+        width: 100%;
         height: 2.5rem;
         border-radius: 6.25rem;
         background: #4286F5;
+        display: flex;
     }
+    .ways a
 
-    .ways-fc {
-        width: 24rem;
-        height: 2.5rem;
-        border-radius: 6.25rem;
-        background: #4286F5;
-        position: relative;
-        right: 0.8rem;
-    }
 
     .ways-fc h5 {
         font-family: Poppins;
@@ -59,8 +50,9 @@
         margin-bottom: 3rem;
         position: relative;
         bottom: 1.8rem;
-        padding-left: 4rem;
+        text-align: center;
     }
+
     .ways h5 {
         font-family: Poppins;
         font-size: 1rem;
@@ -71,53 +63,70 @@
         bottom: 1.8rem;
         padding-left: 4rem;
     }
-    .ways-txt{
+
+    .ways-txt {
         margin-bottom: 2rem;
     }
+
     .ways a {
         text-decoration: none;
-
     }
+
     /* Login */
-    .login{
+    .login {
         padding-top: 3rem;
     }
-    .btn-login{
+
+    .btn-login {
         width: 100%;
         border-radius: 40px;
         border: none;
-        background: rgb(250,124,3);
-        background: linear-gradient(180deg, rgba(250,124,3,1) 33%, rgba(253,175,33,1) 95%);
+        background: rgb(250, 124, 3);
+        background: linear-gradient(180deg, rgba(250, 124, 3, 1) 33%, rgba(253, 175, 33, 1) 95%);
         text-align: center;
         display: flex;
-        align-items: center;
         justify-content: center;
         height: 3rem;
     }
-    .btn-login p{
+
+    .btn-login p {
         font-family: 'Poppins';
     }
-    .btn-login:hover, .btn-login:active, .btn-login:focus{
-        background:  rgb(235, 115, 3);
+
+    .btn-login:hover,
+    .btn-login:active,
+    .btn-login:focus {
+        background: rgb(235, 115, 3);
     }
-    .email-inp::placeholder, 
-    .pass-inp::placeholder{
+
+    .email-inp::placeholder,
+    .pass-inp::placeholder {
         font-family: "Poppins", sans-serif;
-        font-weight: 600;
-        color: black;
+        font-weight: 400;
+        font-size: .8rem;
+        color: rgba(0, 0, 0, 0.493);
     }
-    .email-inp, 
-    .pass-inp{
+    /* ta mto pequeno ta nao? eu queria que coubesse o resto do placeholder
+        mas place holder mto grande fica feio- assim ta bom ja (confirme), eu ia pôr (repite a senha) mas se você diz...
+        so confirme ta bom man, mto grande fica feio no form
+        */
+
+    .email-inp,
+    .pass-inp {
         border: none;
         border-radius: 20px;
-        border-bottom: 1px solid rgba(0, 0, 0, 0.2) 
+        border-bottom: 1px solid rgba(0, 0, 0, 0.2)
     }
-    .create-acc{
+
+    .create-acc {
         font-family: "Poppins", sans-serif;
-    }   
-    .create-link{
-        color: rgb(250,124,3);
-        text-decoration: none;
-        
     }
-} 
+
+    .create-link {
+        color: rgb(250, 124, 3);
+        text-decoration: none;
+    }
+    form{
+        padding: 2.5rem;
+    }
+}
