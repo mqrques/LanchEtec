@@ -21,7 +21,6 @@
         background: linear-gradient(180deg, rgba(250,124,3,1) 33%, rgba(253,175,33,1) 95%);
         text-align: center;
         display: flex;
-        align-items: center;
         justify-content: center;
         height: 3rem;
     }
@@ -31,11 +30,12 @@
     .btn-login:hover, .btn-login:active, .btn-login:focus{
         background:  rgb(235, 115, 3);
     }
-    .email-inp::placeholder, 
-    .pass-inp::placeholder{
+    .email-inp::placeholder,
+    .pass-inp::placeholder {
         font-family: "Poppins", sans-serif;
-        font-weight: 600;
-        color: black;
+        font-weight: 400;
+        font-size: .8rem;
+        color: rgba(0, 0, 0, 0.493);
     }
     .email-inp, 
     .pass-inp{
@@ -49,6 +49,5 @@
     .create-link{
         color: rgb(250,124,3);
         text-decoration: none;
-        
     }
 }

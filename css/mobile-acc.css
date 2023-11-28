@@ -39,10 +39,8 @@
         background: #4286F5;
         display: flex;
     }
-    .ways a
 
-
-    .ways-fc h5 {
+    .ways a .ways-fc h5 {
         font-family: Poppins;
         font-size: 1rem;
         font-weight: 600;
@@ -72,13 +70,16 @@
         text-decoration: none;
     }
 
+    .return{
+        margin: 2rem 0;
+    }
+
     /* Login */
     .login {
         padding-top: 3rem;
     }
 
     .btn-login {
-        width: 100%;
         border-radius: 40px;
         border: none;
         background: rgb(250, 124, 3);
@@ -87,6 +88,11 @@
         display: flex;
         justify-content: center;
         height: 3rem;
+    }
+
+    .btn-login a{
+        text-decoration: none;
+        color: white;
     }
 
     .btn-login p {
@@ -106,10 +112,6 @@
         font-size: .8rem;
         color: rgba(0, 0, 0, 0.493);
     }
-    /* ta mto pequeno ta nao? eu queria que coubesse o resto do placeholder
-        mas place holder mto grande fica feio- assim ta bom ja (confirme), eu ia pôr (repite a senha) mas se você diz...
-        so confirme ta bom man, mto grande fica feio no form
-        */
 
     .email-inp,
     .pass-inp {
@@ -126,7 +128,10 @@
         color: rgb(250, 124, 3);
         text-decoration: none;
     }
-    form{
-        padding: 2.5rem;
+
+    form {
+        margin: 2rem auto;
+        display: flex;
+        flex-direction: column;
     }
 }
